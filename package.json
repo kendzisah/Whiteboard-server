@@ -1,0 +1,17 @@
+{
+    "name": "my-websocket-server",
+    "version": "1.0.0",
+    "description": "A WebSocket server for real-time communication",
+    "main": "server/server.js",
+    "scripts": {
+        "start": "node server/server.js"
+    },
+    "dependencies": {
+        "ws": "^8.18.0"
+    },
+    "engines": {
+        "node": ">=14.0.0"
+    },
+    "author": "Ken Dzisah",
+    "license": "MIT"
+}
